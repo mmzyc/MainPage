@@ -15,15 +15,16 @@
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          &amp;&nbsp;Made&nbsp;by
+          &amp;&nbsp;使用的&nbsp;
           <a :href="config.github" target="_blank">
             {{ config.author }}
           </a>
+          &nbsp;的主题♥
         </span>
         <!-- 站点备案 -->
         <span>
-          &amp;
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
+          &amp;
             {{ siteIcp }}
           </a>
         </span>

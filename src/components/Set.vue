@@ -80,7 +80,16 @@
         </div>
       </el-collapse-item>
       <el-collapse-item title="其他设置" name="4">
-        <div>设置内容待增加</div>
+        <!-- <div>设置内容待增加</div> -->
+        <div class="item">
+          <span class="text">显示天气</span>
+          <el-switch
+            v-model="store.weatherEnabled"
+            inline-prompt
+            :active-icon="CheckSmall"
+            :inactive-icon="CloseSmall"
+          />
+        </div>
       </el-collapse-item>
     </el-collapse>
   </div>
