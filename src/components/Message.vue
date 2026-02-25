@@ -96,8 +96,8 @@ watch(
     animation: fade 0.5s;
     max-width: 460px;
     .logo-img {
-      border-radius: 50%;
-      width: 120px;
+      // border-radius: 50%;
+      width: 35%;
     }
     .name {
       width: 100%;
@@ -106,12 +106,12 @@ watch(
       font-family: "Pacifico-Regular";
 
       .bg {
-        font-size: 5rem;
+        font-size: 3.5rem;
       }
 
       .sm {
         margin-left: 6px;
-        font-size: 2rem;
+        font-size: 1.5rem;
         @media (min-width: 721px) and (max-width: 789px) {
           display: none;
         }
